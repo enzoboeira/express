@@ -5,25 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmes</title>
 </head>
-
 <body>
 
     <h1>Lista de Filmes</h1>
 
-    <nav>
-        <a href="index.html">Filmes</a>
-        <a href="cadastro.html">Cadastrar Filme</a>
-    </nav>
-
-    <br>
-
-    <input type="text" id="busca" placeholder="Buscar por título">
+    <input
+        type="text"
+        id="busca"
+        placeholder="Buscar por título"
+    >
 
     <select id="genero">
         <option value="">Todos os gêneros</option>
     </select>
 
-    <p id="erro"></p>
+    <p id="mensagem"></p>
 
     <table border="1">
         <thead>
@@ -40,6 +36,5 @@
     </table>
 
     <script src="index.js"></script>
-
 </body>
 </html>
