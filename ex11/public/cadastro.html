@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Filme</title>
+</head>
+
+<body>
+
+    <h1>Cadastrar Filme</h1>
+
+    <nav>
+        <a href="index.html">Filmes</a>
+        <a href="cadastro.html">Cadastrar Filme</a>
+    </nav>
+
+    <br>
+
+    <form id="form-filme">
+
+        <label>Título:</label>
+        <input type="text" id="titulo">
+
+        <br><br>
+
+        <label>Diretor:</label>
+        <input type="text" id="diretor">
+
+        <br><br>
+
+        <label>Ano:</label>
+        <input type="number" id="ano">
+
+        <br><br>
+
+        <label>Nota:</label>
+        <input type="number" id="nota" min="0" max="10" step="0.1">
+
+        <br><br>
+
+        <label>Duração:</label>
+        <input type="number" id="duracao">
+
+        <br><br>
+
+        <label>Gênero:</label>
+        <select id="genero">
+            <option value="">Selecione um gênero</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+
+    <p id="mensagem"></p>
+
+    <script src="cadastro.js"></script>
+
+</body>
+</html>

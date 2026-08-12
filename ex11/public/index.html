@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes</title>
+</head>
+
+<body>
+
+    <h1>Lista de Filmes</h1>
+
+    <nav>
+        <a href="index.html">Filmes</a>
+        <a href="cadastro.html">Cadastrar Filme</a>
+    </nav>
+
+    <br>
+
+    <input type="text" id="busca" placeholder="Buscar por título">
+
+    <select id="genero">
+        <option value="">Todos os gêneros</option>
+    </select>
+
+    <p id="erro"></p>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Diretor</th>
+                <th>Gênero</th>
+                <th>Ano</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+
+        <tbody id="tabela-filmes"></tbody>
+    </table>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
